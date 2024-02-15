@@ -1,0 +1,41 @@
+main{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+}
+
+section{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blokk{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2px;
+}
+
+div{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#elem-1{
+    height: auto;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#valami2{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#valami3{
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
