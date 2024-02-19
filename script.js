@@ -57,7 +57,7 @@ function OszlopRandomizalas(oszlop){
 
 
 //oszlopok kozott a blokkok mozgatasa
-
+//Mikor akar ez a BlokkCsere megtörténni? Feltételezem, amikor elengedünk egy blokkot
 function BlokkCsere(oszlop,oszlop2){
 
 }
@@ -67,11 +67,12 @@ OszlopRandomizalas(tornyokLista[1])
 OszlopRandomizalas(tornyokLista[2])
 
 
-//Raktam bele while loopot a gecibe mert felkurt hogy nincs, bocs teso
+//Raktam bele while loopot a gecibe mert felkurt hogy nincs
 let isGameStarted = false
 document.getElementById("startGomb").onclick=function(){
     while(isGameStarted == false){
         isGameStarted = true
+        console.log("Game started!")
         for(x in tornyokLista){
             x.tartalom = []
         }
