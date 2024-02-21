@@ -24,10 +24,6 @@ tornyokLista = [
     }
 ]
 
-
-
-
-
 //oszlop kirakasa weboldalra
 function oszlopKiIrasa(oszlop){
 
