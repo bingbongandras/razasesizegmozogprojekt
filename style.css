@@ -1,42 +1,108 @@
-main{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto auto auto;
+div#hanoi_terulet
+{
+position          : absolute         ;
+top               :   0px            ;
+left              :   0px            ;
+width             : 600px            ;
+height            : 380px            ;
+background-color  : #FEA             ;
+border            : solid 1px #DA3   ;
+border-radius     : 8px              ;
+box-shadow        : 2px 2px 0px #864 ;
 }
 
-section{
-    display: flexbox;
-    flex-direction: column;
-    align-items: center;
+
+
+div#hanoi_terulet form
+{
+position          : absolute         ;
+top               : 16px             ;
+left              : 96px             ;
+font-family       : Verdana          ;
+font-size         : 10px             ;
 }
 
-.blokk{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 2px;
-    user-select: none;
+div.tarto
+{
+position          : absolute         ;
+background-color  : #432             ;
+border-radius     : 5px 5px 0 0      ;
 }
 
-div{
-    background-color: aquamarine;
-    border: 1px solid black;
-    text-align: center;
+div.alap
+{
+top               : 320px            ;
+left              :  40px            ;
+width             : 520px            ;
+height            :  10px            ;
 }
 
-#elem-1{
-    height: auto;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
+div.rud1
+{
+top               :  80px            ;
+left              : 140px            ;
+width             :   8px            ;
+height            : 240px            ;
 }
 
-#valami2{
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
+div.rud2
+{
+top               :  80px            ;
+left              : 300px            ;
+width             :   8px            ;
+height            : 240px            ;
 }
 
-#valami3{
-    width: 65%;
-    margin-left: 17.5%;
-    margin-right: 17.5%;
+div.rud3
+{
+top               :  80px            ;
+left              : 460px            ;
+width             :   8px            ;
+height            : 240px            ;
+}
+
+div.korong
+{
+position          : absolute         ;
+border-radius     : 12px             ;
+height            : 24px             ;
+
+left              : -1000px          ;
+background-color  : #159             ;
+
+text-align        : center           ;
+font-weight       : bold             ;
+font-family       : Courier          ;
+font-size         : 12px             ;
+color             : white            ;
+line-height       : 24px             ;
+}
+
+
+div#idojelzo_alap , div#idojelzo_csik , div#idojelzo_text
+{
+position          : absolute         ;
+bottom            : 16px             ;
+left              : 40px             ;
+
+width             : 520px            ;
+height            :  18px            ;
+
+background-color  : #A98             ;
+border-radius     : 4px              ;
+}
+
+div#idojelzo_csik
+{
+width             : 0px              ;
+background-color  : #654             ;
+}
+
+div#idojelzo_text
+{
+background-color  : transparent      ;
+text-align        : center           ;
+font-weight       : bold             ;
+font-size         : 13px             ;
+color             : white            ;
 }
